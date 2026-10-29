@@ -1,0 +1,13 @@
+{
+  "name": "eventtether",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Event-driven automation and processing platform",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run start:dev --workspace=@eventtether/api",
+    "dev:web": "npm run dev --workspace=@eventtether/web"
+  }
+}
