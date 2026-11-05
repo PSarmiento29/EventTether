@@ -7,7 +7,7 @@
     "apps/*"
   ],
   "scripts": {
-    "dev:api": "npm run start:dev --workspace=@eventtether/api",
-    "dev:web": "npm run dev --workspace=@eventtether/web"
+    "dev:api": "npm run start:dev --workspace=api",
+    "dev:web": "npm run dev --workspace=web"
   }
 }
