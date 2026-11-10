@@ -1,5 +1,12 @@
+import { IsObject, IsString } from 'class-validator';
+
 export class CreateEventDto {
-    name!: string;
-    source!: string;
-    payload!: Record<string, unknown>;
+  @IsString()
+  name!: string;
+
+  @IsString()
+  source!: string;
+
+  @IsObject()
+  payload!: Record<string, unknown>;
 }
