@@ -17,3 +17,8 @@ apps/api/.agents/
 apps/api/.claude/
 apps/api/.windsurf/
 apps/api/skills-lock.json
+
+# Prisma generated client
+apps/api/src/generated/prisma/
+
+*.tsbuildinfo
